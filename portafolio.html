@@ -1,0 +1,423 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sergio Araya Ramírez | Software Developer</title>
+  <meta name="description"
+    content="Portafolio profesional de Sergio Araya Ramírez: .NET, SQL Server, APIs, ERP, BI, infraestructura TI y desarrollo web empresarial." />
+  <meta name="theme-color" content="#0a1020" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+  <nav class="navbar navbar-expand-lg fixed-top" id="mainNavbar" aria-label="Navegación principal">
+    <div class="container">
+      <a class="navbar-brand" href="#inicio" aria-label="Inicio - Sergio Araya"><span class="brand-mark"
+          aria-hidden="true">SA</span><span>Sergio Araya</span></a>
+      <div class="d-flex align-items-center gap-2 order-lg-2">
+        <div class="lang-toggle" role="group" aria-label="Selector de idioma"><button id="btn-es" class="active"
+            type="button" aria-pressed="true">ES</button><button id="btn-en" type="button"
+            aria-pressed="false">EN</button></div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
+          aria-controls="mainNav" aria-expanded="false" aria-label="Abrir menú"><span
+            class="navbar-toggler-icon"></span></button>
+      </div>
+      <div class="collapse navbar-collapse order-lg-1" id="mainNav">
+        <ul class="navbar-nav ms-auto me-lg-3 gap-lg-1">
+          <li class="nav-item"><a class="nav-link" href="#sobre-mi" data-i18n="nav_about">Perfil</a></li>
+          <li class="nav-item"><a class="nav-link" href="#stack">Stack</a></li>
+          <li class="nav-item"><a class="nav-link" href="#proyectos" data-i18n="nav_projects">Proyectos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#certificaciones"
+              data-i18n="nav_certifications">Certificaciones</a></li>
+          <li class="nav-item"><a class="nav-link" href="#experiencia" data-i18n="nav_experience">Experiencia</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contacto" data-i18n="nav_contact">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main id="contenido">
+    <section class="hero" id="inicio" aria-labelledby="hero-title">
+      <div class="container">
+        <div class="hero-grid">
+          <div class="hero-copy reveal">
+            <span class="eyebrow" data-i18n="hero_role">Software Developer / Business Systems Analyst</span>
+            <h1 id="hero-title"><span data-i18n="hero_title_a">Construyo sistemas empresariales con foco en</span> <span
+                class="accent" data-i18n="hero_title_b">backend, datos y operación real.</span></h1>
+            <p class="hero-lead" data-i18n="hero_p1">Soy Sergio Araya Ramírez, estudiante de Informática Empresarial en
+              Costa Rica. Mi perfil combina desarrollo .NET, SQL Server, APIs, análisis de negocio e infraestructura TI
+              para crear soluciones ordenadas, útiles y mantenibles.</p>
+            <p class="hero-lead" data-i18n="hero_p2">Mi proyecto principal es AppWebCxP: una aplicación empresarial de
+              cuentas por pagar con arquitectura MVC, Web API y base de datos relacional, pensada como módulo financiero
+              tipo ERP.</p>
+            <div class="hero-actions"><a href="#proyectos" class="btn btn-main" data-i18n="hero_btn_projects">Ver
+                proyectos</a><a href="https://www.linkedin.com/in/sergio-ar1" class="btn btn-alt social-cta"
+                target="_blank" rel="noopener"><span class="social-icon linkedin" aria-hidden="true"></span><span
+                  data-i18n="linkedin_profile">Perfil de LinkedIn</span></a><a href="CV_Sergio_Araya_Full_ES.pdf"
+                class="btn btn-alt" target="_blank" rel="noopener" data-i18n="hero_btn_cv">Descargar CV</a><a
+                href="mailto:sergioaraya191@gmail.com" class="btn btn-ghost"
+                data-i18n="hero_btn_contact">Contactarme</a></div>
+            <div class="hero-metrics" role="list" aria-label="Indicadores profesionales">
+              <div class="metric" role="listitem"><strong>3</strong><span data-i18n="metric_projects">casos técnicos
+                  destacados</span></div>
+              <div class="metric" role="listitem"><strong>2+</strong><span data-i18n="metric_years">años en coordinación de Informática</span></div>
+              <div class="metric" role="listitem"><strong>200+</strong><span data-i18n="metric_event">asistentes
+                  coordinados</span></div>
+            </div>
+          </div>
+          <aside class="hero-panel reveal reveal-d2" aria-label="Resumen profesional">
+            <div class="profile-card">
+              <div class="avatar" aria-hidden="true">SA</div>
+              <div>
+                <h2>Sergio Araya R.</h2>
+                <p data-i18n="hero_role_short">Costa Rica · Disponible para oportunidades</p>
+              </div>
+            </div>
+            <div class="signal-card">
+              <h3 data-i18n="signal_title">Perfil objetivo</h3>
+              <p data-i18n="signal_text">Backend, sistemas empresariales, soporte TI, análisis de negocio y bases de
+                datos.</p>
+            </div>
+            <div class="quick-stack" aria-label="Tecnologías principales"><span>.NET</span><span>SQL
+                Server</span><span>ASP.NET MVC</span><span>Web API</span><span>ERP</span><span>BI</span></div>
+            <div class="profile-links" aria-label="Perfiles profesionales"><a
+                href="https://www.linkedin.com/in/sergio-ar1" target="_blank" rel="noopener"><span
+                  class="social-icon linkedin" aria-hidden="true"></span>LinkedIn</a><a
+                href="https://github.com/serara12355-coder/sergio-dev-portfolio" target="_blank" rel="noopener"><span
+                  class="social-icon github" aria-hidden="true"></span>AppWebCxP</a></div>
+            <div class="contact-mini"><a href="mailto:sergioaraya191@gmail.com"><span class="mini-icon mini-mail"
+                  aria-hidden="true"></span><span>sergioaraya191@gmail.com</span></a><a href="tel:+50687327284"><span
+                  class="mini-icon mini-phone" aria-hidden="true"></span><span>+506 8732-7284</span></a><span><span
+                  class="mini-icon mini-location" aria-hidden="true"></span><span>Costa Rica</span></span></div>
+          </aside>
+        </div>
+      </div>
+    </section>
+    <section class="section-space" id="sobre-mi" aria-labelledby="about-title">
+      <div class="container">
+        <div class="section-header reveal"><span class="section-kicker">01 / Perfil</span>
+          <h2 class="section-title" id="about-title" data-i18n="about_title">Un perfil técnico con criterio de negocio
+          </h2>
+          <p class="section-subtitle" data-i18n="about_subtitle">No solo desarrollo pantallas: busco entender procesos,
+            datos, usuarios y reglas operativas.</p>
+        </div>
+        <div class="row g-4">
+          <div class="col-lg-7 reveal">
+            <article class="content-panel h-100">
+              <p data-i18n="about_p1">He trabajado con Java, C#, PHP, HTML, CSS, Bootstrap y fundamentos de programación
+                orientada a objetos. Mi interés principal está en construir aplicaciones backend y sistemas internos con
+                estructura clara.</p>
+              <p data-i18n="about_p2">En bases de datos tengo experiencia académica y práctica con SQL Server Management
+                Studio y Oracle SQL Developer, aplicando joins, consultas, funciones, procedimientos almacenados,
+                triggers, seguridad, ACID y manejo de concurrencia.</p>
+              <p class="mb-0" data-i18n="about_p3">También integro conocimientos de redes, sistemas operativos,
+                servidores y experiencia administrativa, lo que me ayuda a comunicarme mejor con usuarios, docentes,
+                equipos técnicos y perfiles de negocio.</p>
+            </article>
+          </div>
+          <div class="col-lg-5 reveal reveal-d2">
+            <div class="value-grid h-100">
+              <div class="value-item"><span>01</span>
+                <p data-i18n="value_1">Modelado de procesos y reglas de negocio.</p>
+              </div>
+              <div class="value-item"><span>02</span>
+                <p data-i18n="value_2">Diseño de soluciones con base de datos relacional.</p>
+              </div>
+              <div class="value-item"><span>03</span>
+                <p data-i18n="value_3">Atención a usuarios y gestión operativa real.</p>
+              </div>
+              <div class="value-item"><span>04</span>
+                <p data-i18n="value_4">Documentación, análisis y comunicación técnica.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-space" id="stack" aria-labelledby="stack-title">
+      <div class="container">
+        <div class="section-header reveal"><span class="section-kicker">02 / Stack</span>
+          <h2 class="section-title" id="stack-title">Tech Stack</h2>
+          <p class="section-subtitle" data-i18n="stack_subtitle">Tecnologías y conceptos que conectan desarrollo web,
+            datos, infraestructura y sistemas empresariales.</p>
+        </div>
+        <div class="stack-grid">
+          <article class="stack-item reveal reveal-d1"><span class="stack-icon code" aria-hidden="true"></span>
+            <h3 data-i18n="stack_1_title">Backend & Web</h3>
+            <p data-i18n="stack_1_text">C#, .NET, ASP.NET MVC, Web API, PHP, HTML5, CSS3 y Bootstrap.</p>
+          </article>
+          <article class="stack-item reveal reveal-d2"><span class="stack-icon data" aria-hidden="true"></span>
+            <h3 data-i18n="stack_2_title">Datos</h3>
+            <p data-i18n="stack_2_text">SQL Server, Oracle SQL Developer, joins, procedimientos, triggers, ACID y
+              concurrencia.</p>
+          </article>
+          <article class="stack-item reveal reveal-d3"><span class="stack-icon layers" aria-hidden="true"></span>
+            <h3 data-i18n="stack_3_title">Arquitectura</h3>
+            <p data-i18n="stack_3_text">MVC, arquitectura en capas, APIs REST, servicios y organización modular.</p>
+          </article>
+          <article class="stack-item reveal reveal-d4"><span class="stack-icon systems" aria-hidden="true"></span>
+            <h3 data-i18n="stack_4_title">Sistemas TI</h3>
+            <p data-i18n="stack_4_text">Sistemas operativos, dual boot, servidores web, correo, streaming y soporte.</p>
+          </article>
+          <article class="stack-item reveal reveal-d5"><span class="stack-icon network" aria-hidden="true"></span>
+            <h3 data-i18n="stack_5_title">Redes</h3>
+            <p data-i18n="stack_5_text">Subneteo, routers, switches, OSPF, EIGRP, RIP y cableado estructurado.</p>
+          </article>
+          <article class="stack-item reveal reveal-d6"><span class="stack-icon workflow" aria-hidden="true"></span>
+            <h3 data-i18n="stack_6_title">Trabajo profesional</h3>
+            <p data-i18n="stack_6_text">Git, Scrum, Agile, documentación, seguimiento de casos y coordinación.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-space" id="proyectos" aria-labelledby="projects-title">
+      <div class="container">
+        <div class="section-header reveal"><span class="section-kicker">03 / Proyectos</span>
+          <h2 class="section-title" id="projects-title" data-i18n="projects_title">Proyectos y casos técnicos</h2>
+          <p class="section-subtitle" data-i18n="projects_subtitle">Presentados como evidencia de pensamiento técnico:
+            arquitectura, datos, procesos y capacidad de ejecución.</p>
+        </div>
+        <article class="project-card project-featured reveal">
+          <div class="row g-4 align-items-center">
+            <div class="col-lg-5"><button class="project-image project-carousel" id="appwebcxp-carousel" type="button"
+                aria-label="Abrir capturas del proyecto AppWebCxP"><img src="img/login.png"
+                  alt="Pantalla de login de AppWebCxP" class="carousel-image carousel-image-1" loading="lazy"><img
+                  src="img/dash.png" alt="Dashboard de AppWebCxP" class="carousel-image carousel-image-2"
+                  loading="lazy"><img src="img/select.png" alt="Pantalla de selección de AppWebCxP"
+                  class="carousel-image carousel-image-3" loading="lazy"><img src="img/cxp.png"
+                  alt="Módulo de cuentas por pagar de AppWebCxP" class="carousel-image carousel-image-4"
+                  loading="lazy"><img src="img/proveedor.png" alt="Módulo de proveedor de AppWebCxP"
+                  class="carousel-image carousel-image-5" loading="lazy"><span class="image-action"
+                  data-i18n="project_open_gallery">Ver capturas</span></button></div>
+            <div class="col-lg-7"><span class="project-tag" data-i18n="project1_tag">Proyecto principal · ERP
+                financiero</span>
+              <h3 class="project-title" data-i18n="project1_title">AppWebCxP - Sistema Empresarial de Cuentas por Pagar
+              </h3>
+              <p data-i18n="project1_p">Aplicación web orientada a procesos financieros empresariales. Gestiona cuentas
+                por pagar, proveedores, selección de negocio y flujo operativo con arquitectura MVC y base de datos
+                relacional.</p>
+              <div class="project-proof">
+                <div><strong data-i18n="proof_arch_title">Arquitectura</strong><span data-i18n="proof_arch_text">MVC,
+                    Web API, separación por módulos y reglas de negocio.</span></div>
+                <div><strong data-i18n="proof_data_title">Datos</strong><span data-i18n="proof_data_text">SQL Server,
+                    consultas, entidades financieras y estructura relacional.</span></div>
+                <div><strong data-i18n="proof_value_title">Valor</strong><span data-i18n="proof_value_text">Evidencia
+                    fuerte de backend aplicado a un proceso empresarial real.</span></div>
+              </div>
+              <div class="badge-row"><span>.NET</span><span>ASP.NET MVC</span><span>Web API</span><span>SQL
+                  Server</span><span>ERP</span></div>
+              <div class="project-links"><a href="https://github.com/serara12355-coder/sergio-dev-portfolio"
+                  target="_blank" rel="noopener" class="link-chip link-chip-primary"><span class="social-icon github"
+                    aria-hidden="true"></span><span data-i18n="github_repository">Repositorio GitHub</span></a><span
+                  class="link-chip link-chip-muted" data-i18n="academic_demo">Demo local / académica</span></div>
+            </div>
+          </div>
+        </article>
+        <div class="row g-4 mt-1">
+          <div class="col-lg-6 reveal reveal-d1">
+            <article class="project-card project-compact h-100">
+              <div class="case-visual db-visual" role="img" aria-label="Diagrama visual de base de datos distribuida">
+                <div class="node main">Oracle</div>
+                <div class="node">Branch A</div>
+                <div class="node">Branch B</div>
+                <div class="node">Branch C</div>
+              </div><span class="project-tag" data-i18n="project2_tag">Caso académico · Arquitectura de datos</span>
+              <h3 class="project-title" data-i18n="project2_title">Distributed Retail System (Oracle)</h3>
+              <p data-i18n="project2_p">Diseño de una base de datos distribuida para simular un entorno retail con
+                múltiples sucursales, intercambio de información y organización relacional entre nodos.</p>
+              <ul class="clean-list">
+                <li data-i18n="project2_li1">Modelado de datos para operaciones de retail.</li>
+                <li data-i18n="project2_li2">Uso de Oracle SQL Developer en contexto universitario.</li>
+                <li data-i18n="project2_li3">Enfoque en distribución, consistencia y diseño relacional.</li>
+              </ul>
+              <div class="badge-row"><span>Oracle</span><span>SQL Developer</span><span>Distributed DB</span><span>Data
+                  Modeling</span></div>
+            </article>
+          </div>
+          <div class="col-lg-6 reveal reveal-d2">
+            <article class="project-card project-compact h-100">
+              <div class="case-visual risk-visual" role="img" aria-label="Mapa visual de gestión de riesgos TI">
+                <div class="risk-ring"><span>Risk</span></div>
+                <div class="risk-pill">Infra</div>
+                <div class="risk-pill">Impact</div>
+                <div class="risk-pill">Plan</div>
+              </div><span class="project-tag" data-i18n="project3_tag">Caso académico · Análisis de sistemas</span>
+              <h3 class="project-title" data-i18n="project3_title">Risk Management System - UCR Communications
+                Infrastructure</h3>
+              <p data-i18n="project3_p">Análisis y diseño de una solución para identificar riesgos, documentar impacto y
+                proponer planes de contingencia en infraestructura institucional de comunicaciones.</p>
+              <ul class="clean-list">
+                <li data-i18n="project3_li1">Levantamiento de riesgos operativos y técnicos.</li>
+                <li data-i18n="project3_li2">Documentación estructurada para toma de decisiones.</li>
+                <li data-i18n="project3_li3">Aporta visión de negocio, continuidad e infraestructura TI.</li>
+              </ul>
+              <div class="badge-row"><span data-i18n="project3_badge1">Análisis</span><span
+                  data-i18n="project3_badge2">Documentación</span><span>IT Infrastructure</span><span>Continuity</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-space" id="certificaciones" aria-labelledby="certifications-title">
+      <div class="container">
+        <div class="section-header reveal"><span class="section-kicker">04 / Credentials</span>
+          <h2 class="section-title" id="certifications-title" data-i18n="certifications_title">Certificaciones e
+            insignias</h2>
+          <p class="section-subtitle" data-i18n="certifications_subtitle">Credenciales que refuerzan mi base en
+            metodologías ágiles, gestión de proyectos y trabajo profesional en equipos de tecnología.</p>
+        </div>
+        <div class="credentials-grid">
+          <article class="credential-card credential-card-featured reveal">
+            <div class="credential-emblem scrum"><img src="img/badge-SFC.png"
+                alt="Insignia Scrum Fundamentals Certified" loading="lazy"></div>
+            <div class="credential-content"><span class="credential-type"
+                data-i18n="cert_type_certification">Certificación</span>
+              <h3>Scrum Fundamentals Certified</h3>
+              <p>SCRUMstudy</p><a href="https://www.scrumstudy.com/certification/verify?type=SFC&number=1163954"
+                target="_blank" rel="noopener" class="credential-link" data-i18n="view_credential">Ver credencial</a>
+            </div>
+          </article>
+          <article class="credential-card reveal reveal-d1">
+            <div class="credential-emblem pmi"><img src="img/Kickoff-BadgeA.png" alt="Insignia PMI Kickoff Agile"
+                loading="lazy"></div>
+            <div class="credential-content"><span class="credential-type" data-i18n="cert_type_badge">Insignia</span>
+              <h3>PMI Kickoff Agile Badge</h3>
+              <p>Project Management Institute</p><a href="https://www.pmi.org/kickoff" target="_blank" rel="noopener"
+                class="credential-link" data-i18n="view_credential">Ver credencial</a>
+            </div>
+          </article>
+          <article class="credential-card reveal reveal-d2">
+            <div class="credential-emblem pmi predictive"><img src="img/Kickoff-BadgeP.png"
+                alt="Insignia PMI Kickoff Predictive" loading="lazy"></div>
+            <div class="credential-content"><span class="credential-type" data-i18n="cert_type_badge">Insignia</span>
+              <h3>PMI Kickoff Predictive Badge</h3>
+              <p>Project Management Institute</p><a href="https://www.pmi.org/kickoff" target="_blank" rel="noopener"
+                class="credential-link" data-i18n="view_credential">Ver credencial</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-space" id="experiencia" aria-labelledby="experience-title">
+      <div class="container">
+        <div class="section-header reveal"><span class="section-kicker">05 / Experiencia</span>
+          <h2 class="section-title" id="experience-title" data-i18n="experience_title">Experiencia que suma criterio
+            profesional</h2>
+          <p class="section-subtitle" data-i18n="experience_subtitle">La experiencia operativa también importa:
+            atención, seguimiento, organización y ejecución bajo presión.</p>
+        </div>
+        <div class="timeline">
+          <article class="timeline-card reveal reveal-d1"><span class="small-label" data-i18n="exp1_label">Experiencia
+              profesional</span>
+            <h3 data-i18n="exp1_title">Asistente de Coordinación - Informática Empresarial</h3>
+            <p class="xp-meta" data-i18n="exp1_meta">Universidad de Costa Rica · Aproximadamente 2 años · Experiencia
+              remunerada</p>
+            <ul class="clean-list">
+              <li data-i18n="exp1_li1">Apoyo en procesos administrativos y académicos del programa.</li>
+              <li data-i18n="exp1_li2">Gestión de casos y atención a estudiantes y docentes.</li>
+              <li data-i18n="exp1_li3">Manejo de información, documentación y seguimiento operativo.</li>
+              <li data-i18n="exp1_li4">Participación activa en la coordinación diaria del programa.</li>
+            </ul>
+          </article>
+          <article class="timeline-card reveal reveal-d2"><span class="small-label" data-i18n="exp2_label">Coordinación
+              de evento</span>
+            <h3 data-i18n="exp2_title">Organización de Simposio Internacional</h3>
+            <p class="xp-meta" data-i18n="exp2_meta">Evento académico · 200+ asistentes</p>
+            <ul class="clean-list">
+              <li data-i18n="exp2_li1">Coordinación logística integral para profesionales y participantes
+                internacionales.</li>
+              <li data-i18n="exp2_li2">Gestión de alimentación, hospedaje, cronograma, asistencia e imprevistos.</li>
+              <li data-i18n="exp2_li3">Trabajo bajo presión con enfoque en ejecución operativa exitosa.</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-space" id="contacto" aria-labelledby="contact-title">
+      <div class="container">
+        <div class="contact-card reveal">
+          <div><span class="section-kicker">06 / Contacto</span>
+            <h2 class="section-title" id="contact-title" data-i18n="contact_title">Conversemos</h2>
+            <p class="section-subtitle" data-i18n="contact_subtitle">Disponible para oportunidades en desarrollo
+              backend, sistemas empresariales, soporte TI, bases de datos o análisis de negocio.</p>
+          </div>
+          <div class="contact-grid"><a href="mailto:sergioaraya191@gmail.com" class="contact-item"><span
+                class="contact-icon mail"
+                aria-hidden="true"></span><span><strong>Email</strong><small>sergioaraya191@gmail.com</small></span></a><a
+              href="https://www.linkedin.com/in/sergio-ar1" target="_blank" rel="noopener"
+              class="contact-item contact-featured"><span class="contact-icon linkedin-contact"
+                aria-hidden="true"></span><span><strong>LinkedIn</strong><small data-i18n="linkedin_profile">Perfil de
+                  LinkedIn</small></span></a><a href="https://github.com/serara12355-coder/sergio-dev-portfolio"
+              target="_blank" rel="noopener" class="contact-item"><span class="contact-icon github-contact"
+                aria-hidden="true"></span><span><strong>GitHub</strong><small data-i18n="github_repository">Repositorio
+                  GitHub</small></span></a><a href="tel:+50687327284" class="contact-item"><span
+                class="contact-icon phone" aria-hidden="true"></span><span><strong
+                  data-i18n="contact_phone">Teléfono</strong><small>+506 8732-7284</small></span></a><a
+              href="CV_Sergio_Araya_Full_ES.pdf" target="_blank" rel="noopener" class="contact-item"><span
+                class="contact-icon cv" aria-hidden="true"></span><span><strong>CV</strong><small
+                  data-i18n="hero_btn_cv">Descargar CV</small></span></a>
+            <div class="contact-item contact-static"><span class="contact-icon location"
+                aria-hidden="true"></span><span><strong>Costa Rica</strong><small data-i18n="location_text">Modalidad
+                  presencial/remota según oportunidad</small></span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" role="contentinfo">
+    <div class="container footer-inner"><span data-i18n="footer_text">© 2026 Sergio Araya Ramírez · Software, sistemas
+        empresariales, datos e infraestructura TI.</span><a href="#inicio" data-i18n="footer_top">Volver arriba</a>
+    </div>
+  </footer>
+
+  <div class="image-lightbox" id="appwebcxp-lightbox" aria-hidden="true" role="dialog" aria-modal="true"
+    aria-label="Galería AppWebCxP"><button class="lightbox-close" type="button"
+      aria-label="Cerrar vista ampliada">X</button><button class="lightbox-control lightbox-prev" type="button"
+      aria-label="Imagen anterior">&lt;</button>
+    <figure class="lightbox-content"><img id="lightbox-image" src="img/login.png" alt="Pantalla de login de AppWebCxP">
+      <figcaption id="lightbox-caption">Login</figcaption>
+    </figure><button class="lightbox-control lightbox-next" type="button" aria-label="Imagen siguiente">&gt;</button>
+    <div class="lightbox-dots" id="lightbox-dots" aria-label="Selector de capturas"></div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    const translations = {
+      es: {
+        nav_about: "Perfil", nav_projects: "Proyectos", nav_certifications: "Certificaciones", nav_experience: "Experiencia", nav_contact: "Contacto", hero_role: "Software Developer / Business Systems Analyst", hero_title_a: "Construyo sistemas empresariales con foco en", hero_title_b: "backend, datos y operación real.", hero_role_short: "Costa Rica · Disponible para oportunidades", hero_p1: "Soy Sergio Araya Ramírez, estudiante de Informática Empresarial en Costa Rica. Mi perfil combina desarrollo .NET, SQL Server, APIs, análisis de negocio e infraestructura TI para crear soluciones ordenadas, útiles y mantenibles.", hero_p2: "Mi proyecto principal es AppWebCxP: una aplicación empresarial de cuentas por pagar con arquitectura MVC, Web API y base de datos relacional, pensada como módulo financiero tipo ERP.", hero_btn_projects: "Ver proyectos", hero_btn_cv: "Descargar CV", hero_btn_contact: "Contactarme", linkedin_profile: "Perfil de LinkedIn", github_repository: "Repositorio GitHub", metric_projects: "casos técnicos destacados", metric_years: "años en coordinación de Informática", metric_event: "asistentes coordinados", signal_title: "Perfil objetivo", signal_text: "Backend, sistemas empresariales, soporte TI, análisis de negocio y bases de datos.", about_title: "Un perfil técnico con criterio de negocio", about_subtitle: "No solo desarrollo pantallas: busco entender procesos, datos, usuarios y reglas operativas.", about_p1: "He trabajado con Java, C#, PHP, HTML, CSS, Bootstrap y fundamentos de programación orientada a objetos. Mi interés principal está en construir aplicaciones backend y sistemas internos con estructura clara.", about_p2: "En bases de datos tengo experiencia académica y práctica con SQL Server Management Studio y Oracle SQL Developer, aplicando joins, consultas, funciones, procedimientos almacenados, triggers, seguridad, ACID y manejo de concurrencia.", about_p3: "También integro conocimientos de redes, sistemas operativos, servidores y experiencia administrativa, lo que me ayuda a comunicarme mejor con usuarios, docentes, equipos técnicos y perfiles de negocio.", value_1: "Modelado de procesos y reglas de negocio.", value_2: "Diseño de soluciones con base de datos relacional.", value_3: "Atención a usuarios y gestión operativa real.", value_4: "Documentación, análisis y comunicación técnica.", stack_subtitle: "Tecnologías y conceptos que conectan desarrollo web, datos, infraestructura y sistemas empresariales.", stack_1_title: "Backend & Web", stack_1_text: "C#, .NET, ASP.NET MVC, Web API, PHP, HTML5, CSS3 y Bootstrap.", stack_2_title: "Datos", stack_2_text: "SQL Server, Oracle SQL Developer, joins, procedimientos, triggers, ACID y concurrencia.", stack_3_title: "Arquitectura", stack_3_text: "MVC, arquitectura en capas, APIs REST, servicios y organización modular.", stack_4_title: "Sistemas TI", stack_4_text: "Sistemas operativos, dual boot, servidores web, correo, streaming y soporte.", stack_5_title: "Redes", stack_5_text: "Subneteo, routers, switches, OSPF, EIGRP, RIP y cableado estructurado.", stack_6_title: "Trabajo profesional", stack_6_text: "Git, Scrum, Agile, documentación, seguimiento de casos y coordinación.", projects_title: "Proyectos y casos técnicos", projects_subtitle: "Presentados como evidencia de pensamiento técnico: arquitectura, datos, procesos y capacidad de ejecución.", project_open_gallery: "Ver capturas", project1_tag: "Proyecto principal · ERP financiero", project1_title: "AppWebCxP - Sistema Empresarial de Cuentas por Pagar", project1_p: "Aplicación web orientada a procesos financieros empresariales. Gestiona cuentas por pagar, proveedores, selección de negocio y flujo operativo con arquitectura MVC y base de datos relacional.", proof_arch_title: "Arquitectura", proof_arch_text: "MVC, Web API, separación por módulos y reglas de negocio.", proof_data_title: "Datos", proof_data_text: "SQL Server, consultas, entidades financieras y estructura relacional.", proof_value_title: "Valor", proof_value_text: "Evidencia fuerte de backend aplicado a un proceso empresarial real.", private_repo: "Repositorio disponible bajo solicitud", academic_demo: "Demo local / académica", project2_tag: "Caso académico · Arquitectura de datos", project2_title: "Distributed Retail System (Oracle)", project2_p: "Diseño de una base de datos distribuida para simular un entorno retail con múltiples sucursales, intercambio de información y organización relacional entre nodos.", project2_li1: "Modelado de datos para operaciones de retail.", project2_li2: "Uso de Oracle SQL Developer en contexto universitario.", project2_li3: "Enfoque en distribución, consistencia y diseño relacional.", project3_tag: "Caso académico · Análisis de sistemas", project3_title: "Risk Management System - UCR Communications Infrastructure", project3_p: "Análisis y diseño de una solución para identificar riesgos, documentar impacto y proponer planes de contingencia en infraestructura institucional de comunicaciones.", project3_li1: "Levantamiento de riesgos operativos y técnicos.", project3_li2: "Documentación estructurada para toma de decisiones.", project3_li3: "Aporta visión de negocio, continuidad e infraestructura TI.", project3_badge1: "Análisis", project3_badge2: "Documentación", certifications_title: "Certificaciones e insignias", certifications_subtitle: "Credenciales que refuerzan mi base en metodologías ágiles, gestión de proyectos y trabajo profesional en equipos de tecnología.", cert_type_certification: "Certificación", cert_type_badge: "Insignia", view_credential: "Ver credencial", experience_title: "Experiencia que suma criterio profesional", experience_subtitle: "La experiencia operativa también importa: atención, seguimiento, organización y ejecución bajo presión.", exp1_label: "Experiencia profesional", exp1_title: "Asistente de Coordinación - Informática Empresarial", exp1_meta: "Universidad de Costa Rica · Aproximadamente 2 años · Experiencia remunerada", exp1_li1: "Apoyo en procesos administrativos y académicos del programa.", exp1_li2: "Gestión de casos y atención a estudiantes y docentes.", exp1_li3: "Manejo de información, documentación y seguimiento operativo.", exp1_li4: "Participación activa en la coordinación diaria del programa.", exp2_label: "Coordinación de evento", exp2_title: "Organización de Simposio Internacional", exp2_meta: "Evento académico · 200+ asistentes", exp2_li1: "Coordinación logística integral para profesionales y participantes internacionales.", exp2_li2: "Gestión de alimentación, hospedaje, cronograma, asistencia e imprevistos.", exp2_li3: "Trabajo bajo presión con enfoque en ejecución operativa exitosa.", contact_title: "Conversemos", contact_subtitle: "Disponible para oportunidades en desarrollo backend, sistemas empresariales, soporte TI, bases de datos o análisis de negocio.", contact_phone: "Teléfono", location_text: "Modalidad presencial/remota según oportunidad", footer_text: "© 2026 Sergio Araya Ramírez · Software, sistemas empresariales, datos e infraestructura TI.", footer_top: "Volver arriba"
+      },
+      en: {
+        nav_about: "Profile", nav_projects: "Projects", nav_certifications: "Certificacións", nav_experience: "Experience", nav_contact: "Contact", hero_role: "Software Developer / Business Systems Analyst", hero_title_a: "I build enterprise systems focused on", hero_title_b: "backend, data and real operations.", hero_role_short: "Costa Rica · Available for opportunities", hero_p1: "I am Sergio Araya Ramírez, a Business Informatics student in Costa Rica. My profile combines .NET development, SQL Server, APIs, business analysis and IT infrastructure to create organized, useful and maintainable solutions.", hero_p2: "My main project is AppWebCxP: an enterprise accounts payable application with MVC architecture, Web API and a relational database, designed as an ERP-style financial module.", hero_btn_projects: "View projects", hero_btn_cv: "Download CV", hero_btn_contact: "Contact me", linkedin_profile: "Perfil de LinkedIn", github_repository: "Repositorio GitHub", metric_projects: "featured technical cases", metric_years: "years in Informatics coordination", metric_event: "attendees coordinated", signal_title: "Target profile", signal_text: "Backend, enterprise systems, IT support, business analysis and databases.", about_title: "A technical profile with business judgment", about_subtitle: "I do not only build screens: I try to understand processes, data, users and operational rules.", about_p1: "I have worked with Java, C#, PHP, HTML, CSS, Bootstrap and object-oriented programming fundamentals. My main interést is building backend applications and internal systems with clear structure.", about_p2: "In databases, I have academic and práctical experience with SQL Server Management Studio and Oracle SQL Developer, applying joins, queries, functions, stored procedures, triggers, security, ACID and concurrency concepts.", about_p3: "I also bring knowledge of networks, operating systems, servers and administrative work, which helps me communicate with users, faculty, technical teams and business stakeholders.", value_1: "Business process and rule modeling.", value_2: "Relational database solution design.", value_3: "Real user support and operational case handling.", value_4: "Documentation, analysis and technical communication.", stack_subtitle: "Technologies and concepts connecting web development, data, infrastructure and enterprise systems.", stack_1_title: "Backend & Web", stack_1_text: "C#, .NET, ASP.NET MVC, Web API, PHP, HTML5, CSS3 and Bootstrap.", stack_2_title: "Data", stack_2_text: "SQL Server, Oracle SQL Developer, joins, procedures, triggers, ACID and concurrency.", stack_3_title: "Architecture", stack_3_text: "MVC, layered architecture, REST APIs, services and modular organization.", stack_4_title: "IT Systems", stack_4_text: "Operating systems, dual boot, web servers, mail servers, streaming and support.", stack_5_title: "Networking", stack_5_text: "Subnetting, routers, switches, OSPF, EIGRP, RIP and structured cabling.", stack_6_title: "Professional work", stack_6_text: "Git, Scrum, Agile, documentation, case follow-up and coordination.", projects_title: "Projects and technical cases", projects_subtitle: "Presented as evidence of technical thinking: architecture, data, processes and execution capability.", project_open_gallery: "View screenshots", project1_tag: "Main project · Financial ERP", project1_title: "AppWebCxP - Enterprise Accounts Payable System", project1_p: "Web application focused on enterprise financial processes. It manages accounts payable, suppliers, business selection and operational flow with MVC architecture and a relational database.", proof_arch_title: "Architecture", proof_arch_text: "MVC, Web API, module separation and business rules.", proof_data_title: "Data", proof_data_text: "SQL Server, queries, financial entities and relational structure.", proof_value_title: "Value", proof_value_text: "Strong evidence of backend development applied to a real business process.", private_repo: "Repository available upon request", academic_demo: "Local / academic demo", project2_tag: "Academic case · Data architecture", project2_title: "Distributed Retail System (Oracle)", project2_p: "Design of a distributed database to simulate a retail environment with multiple branches, information exchange and relational organization across nodes.", project2_li1: "Data modeling for retail operations.", project2_li2: "Use of Oracle SQL Developer in an academic context.", project2_li3: "Focus on distribution, consistency and relational design.", project3_tag: "Academic case · Systems analysis", project3_title: "Risk Management System - UCR Communications Infrastructure", project3_p: "Analysis and design of a solution to identify risks, document impact and propose contingency plans for institutional communications infrastructure.", project3_li1: "Operational and technical risk discovery.", project3_li2: "Structured documentation for decision-making.", project3_li3: "Adds business continuity and IT infrastructure perspective.", project3_badge1: "Analysis", project3_badge2: "Documentation", certifications_title: "Certificaciones e insignias", certifications_subtitle: "Credentials that strengthen my foundation in agile methods, project management and professional work in technology teams.", cert_type_certification: "Certificación", cert_type_badge: "Insignia", view_credential: "Ver credencial", experience_title: "Experience that adds professional judgment", experience_subtitle: "Operational experience matters too: support, follow-up, organization and execution under pressure.", exp1_label: "Professional experience", exp1_title: "Coordination Assistant - Business Informatics", exp1_meta: "University of Costa Rica · Approximately 2 years · Paid experience", exp1_li1: "Supported academic and administrative processes.", exp1_li2: "Handled cases and supported students and faculty.", exp1_li3: "Managed information, documentation and operational follow-up.", exp1_li4: "Actively contributed to daily program coordination.", exp2_label: "Event coordination", exp2_title: "International Symposium Organization", exp2_meta: "Academic event · 200+ attendees", exp2_li1: "Coordinated logistics for professionals and international participants.", exp2_li2: "Managed meals, lodging, schedule, attendance and unexpected issues.", exp2_li3: "Worked under pressure with a focus on successful execution.", contact_title: "Let's talk", contact_subtitle: "Available for opportunities in backend development, enterprise systems, IT support, databases or business analysis.", contact_phone: "Phone", location_text: "On-site/remote depending on the opportunity", footer_text: "© 2026 Sergio Araya Ramírez · Software, enterprise systems, data and IT infrastructure.", footer_top: "Back to top"
+      }
+    };
+    const btnEs = document.getElementById("btn-es"), btnEn = document.getElementById("btn-en");
+    function setLanguage(lang) { document.documentElement.lang = lang; document.querySelectorAll("[data-i18n]").forEach(el => { const key = el.getAttribute("data-i18n"); if (translations[lang]?.[key]) el.textContent = translations[lang][key]; }); btnEs.classList.toggle("active", lang === "es"); btnEn.classList.toggle("active", lang === "en"); btnEs.setAttribute("aria-pressed", lang === "es"); btnEn.setAttribute("aria-pressed", lang === "en"); localStorage.setItem("portfolioLanguage", lang); }
+    btnEs.addEventListener("click", () => setLanguage("es")); btnEn.addEventListener("click", () => setLanguage("en")); setLanguage(localStorage.getItem("portfolioLanguage") || "es");
+    const observer = new IntersectionObserver(entries => { entries.forEach(entry => { if (entry.isIntersecting) { entry.target.classList.add("visible"); observer.unobserve(entry.target); } }); }, { threshold: .12 }); document.querySelectorAll(".reveal").forEach(el => observer.observe(el));
+    const projectCarousel = document.getElementById("appwebcxp-carousel"), lightbox = document.getElementById("appwebcxp-lightbox"), lightboxImage = document.getElementById("lightbox-image"), lightboxCaption = document.getElementById("lightbox-caption"), lightboxDots = document.getElementById("lightbox-dots"), lightboxClose = lightbox.querySelector(".lightbox-close"), lightboxPrev = lightbox.querySelector(".lightbox-prev"), lightboxNext = lightbox.querySelector(".lightbox-next");
+    const appwebcxpImages = [{ src: "img/login.png", alt: "Pantalla de login de AppWebCxP", title: "Login" }, { src: "img/dash.png", alt: "Dashboard de AppWebCxP", title: "Dashboard" }, { src: "img/select.png", alt: "Pantalla de selección de AppWebCxP", title: "Seleccionar negocio" }, { src: "img/cxp.png", alt: "Módulo de cuentas por pagar de AppWebCxP", title: "Cuentas por pagar" }, { src: "img/proveedor.png", alt: "Módulo de proveedor de AppWebCxP", title: "Proveedores" }]; let lightboxIndex = 0, lightboxTouchStart = 0;
+    appwebcxpImages.forEach((image, index) => { const dot = document.createElement("button"); dot.type = "button"; dot.className = "lightbox-dot"; dot.setAttribute("aria-label", `Ver ${image.title}`); dot.addEventListener("click", () => showLightboxImage(index)); lightboxDots.appendChild(dot); });
+    function showLightboxImage(index) { lightboxIndex = (index + appwebcxpImages.length) % appwebcxpImages.length; const image = appwebcxpImages[lightboxIndex]; lightboxImage.src = image.src; lightboxImage.alt = image.alt; lightboxCaption.textContent = image.title; lightboxDots.querySelectorAll(".lightbox-dot").forEach((dot, dotIndex) => { dot.classList.toggle("active", dotIndex === lightboxIndex); dot.setAttribute("aria-pressed", dotIndex === lightboxIndex); }); }
+    function getCurrentCarouselIndex() { const images = projectCarousel.querySelectorAll(".carousel-image"); let visibleIndex = 0, visibleOpacity = 0; images.forEach((image, index) => { const opacity = Number.parseFloat(getComputedStyle(image).opacity); if (opacity > visibleOpacity) { visibleOpacity = opacity; visibleIndex = index; } }); return visibleIndex; }
+    function openLightbox() { showLightboxImage(getCurrentCarouselIndex()); lightbox.classList.add("active"); lightbox.setAttribute("aria-hidden", "false"); document.body.classList.add("lightbox-open"); lightboxClose.focus(); }
+    function closeLightbox() { lightbox.classList.remove("active"); lightbox.setAttribute("aria-hidden", "true"); document.body.classList.remove("lightbox-open"); projectCarousel.focus(); }
+    projectCarousel.addEventListener("click", openLightbox); lightboxClose.addEventListener("click", closeLightbox); lightboxPrev.addEventListener("click", () => showLightboxImage(lightboxIndex - 1)); lightboxNext.addEventListener("click", () => showLightboxImage(lightboxIndex + 1)); lightbox.addEventListener("click", e => { if (e.target === lightbox) closeLightbox(); }); lightbox.addEventListener("touchstart", e => { lightboxTouchStart = e.changedTouches[0].clientX; }, { passive: true }); lightbox.addEventListener("touchend", e => { const distance = e.changedTouches[0].clientX - lightboxTouchStart; if (Math.abs(distance) >= 40) showLightboxImage(lightboxIndex + (distance < 0 ? 1 : -1)); }, { passive: true }); document.addEventListener("keydown", e => { if (!lightbox.classList.contains("active")) return; if (e.key === "Escape") closeLightbox(); if (e.key === "ArrowLeft") showLightboxImage(lightboxIndex - 1); if (e.key === "ArrowRight") showLightboxImage(lightboxIndex + 1); });
+    const navbar = document.getElementById("mainNavbar"), sections = document.querySelectorAll("section[id]"), navLinks = document.querySelectorAll(".nav-link[href^='#']"); function updateNav() { navbar.classList.toggle("scrolled", window.scrollY > 18); let current = ""; sections.forEach(section => { if (window.scrollY >= section.offsetTop - 140) current = section.id; }); navLinks.forEach(link => link.classList.toggle("active-section", link.getAttribute("href").slice(1) === current)); } window.addEventListener("scroll", updateNav, { passive: true }); updateNav();
+  </script>
+</body>
+
+</html>
